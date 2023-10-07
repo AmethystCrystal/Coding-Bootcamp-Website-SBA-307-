@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+     display: block;
+
+}
+
+#sign {
+    font-size: xx-large;
+}
+
+#pic {
+    object-fit: cover;
+    padding: 15px;
+    opacity: 1;
+}
+
+#Q{
+    color: black;
+    transition-property: color;
+    transition-duration: 2s;
+ }
+ #Q:hover {
+    color: red;
+ }
+
+#pic{
+    transition-property: opacity;
+    transition-duration: 1s;
+ }
+
+ #pic:hover {
+    opacity: 0.0;
+ }
+ 
+ img {
+    justify-self: center;
+    
+ }
+
+ #rotate {
+ 
+    transition-duration: 0.5s;
+ }
+#rotate:hover {
+        transform:rotate(360deg);
+     }

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3 Page Website</title>
+  <style></style>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- Navbar Start -->
+  <nav class="navbar navbar-expand-lg bg-danger navbar-dark">
+    <div class="container">
+      <!-- <a href="Index.html" class="navbar-brand" style="font-weight: bold;" >Coding Bootcamp</a> -->
+
+      <div class="dropdown">
+        <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <b>Coding Bootcamp</b>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="Index.html" target="_blank">Home</a></li>
+          <li><a class="dropdown-item" href="Questions.html" target="_blank">Questions</a></li>
+          <li><a class="dropdown-item" href="About-Us.html" target="_blank">About Us</a></li>
+
+        </ul>
+      </div>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <!-- <li class="nav item">
+            <a href="#learn" class="nav-link link-light" style="font-weight: bold;">Curriculum</a>
+          </li> -->
+          <li class="nav item">
+            <img src="phone.svg">
+            <a href="#" class="nav-link link-light" style="font-weight: bold;">Contact Us</a>
+          </li>
+          <li class="nav item">
+            <img src="Person.svg"> <a href="#" class="nav-link link-light" style="font-weight: bold;">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </nav>
+  <!-- Navbar End -->
+
+
+  <!-- Showcase Start -->
+
+  <Section class="bg-light text-dark p-5 text-center">
+    <div class="container">
+      <div class="d-flex">
+        <div>
+          <h1>Become a <span class="text-danger"> <br>
+              Web Developer</span></h1><br><br>
+          <p style="line-height: 2;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus hic ipsum provident reiciendis, fuga
+            pariatur quisquam at eos, veniam quod corrupti! Quaerat totam illo cumque deserunt architecto quis
+            excepturi! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo quasi hic obcaecati reiciendis recusandae atque dolores velit, soluta laboriosam. Quis accusantium molestias soluta cupiditate minus esse distinctio quas atque quo!</p> <br><br>
+
+          <!-- Sign Up Start -->
+          <section>
+            <h1 id="sign">Sign Up!</h1><br><br>
+            <div class="container1">
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text"></div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              
+              <button type="submit" class="btn btn-primary">Sign Up</button>
+            </div>
+          </section>
+          <!-- Sign Up End -->
+        </div>
+        <img id="pic" src="Coding.jpg" alt="Woman Using a Computer" width="50%">
+      </div>
+    </div>
+  </Section>
+
+  <!-- Showcase End -->
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
